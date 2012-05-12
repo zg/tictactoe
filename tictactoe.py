@@ -64,7 +64,7 @@ Have fun, and good luck!
 			location = raw_input("Choose a location: ")
 			try:
 				location = int(location)
-			except ValueError:
+			except:
 				print "Invalid location. Please try again."
 				continue
 			if location < 0 or 9 <= location:
